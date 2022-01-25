@@ -33,13 +33,13 @@ function toTheme1(){
 	document.querySelector('body').style.backgroundColor = "#F3EBE2";
 	document.querySelector('section').style.backgroundColor = "#DDB892";
 	document.querySelector('section').style.color = "#462E20";
-	document.querySelector('section').style.boxShadow = "0px 0px 0px 0px";
+	document.querySelector('section').style.boxShadow = "none";
 	document.querySelector('section').style.borderColor = "#9C6644";
 	var inputs = document.getElementsByTagName ('input');
 	for (var i = 0; i < inputs.length; i++){
 		inputs[i].style.backgroundColor = "#DDB892";
 		inputs[i].style.color = "#462E20";
-		inputs[i].style.boxShadow = "0px 0px 0px 0px";
+		inputs[i].style.boxShadow = "none";
 		inputs[i].style.borderColor = "#9C6644";
 	}
 }
@@ -63,13 +63,13 @@ function toTheme2(){
 function toTheme3(){
 	document.querySelector('body').style.backgroundImage = "url('images/partybackground.gif')";
 	document.querySelector('section').style.backgroundColor = "#E0D7FF";
-	document.querySelector('section').style.boxShadow = "0px 0px 0px 0px";
+	document.querySelector('section').style.boxShadow = "none";
 	document.querySelector('section').style.borderColor = "black";
 	document.querySelector('section').style.color = "black";
 	var inputs = document.getElementsByTagName ('input');
 	for (var i = 0; i < inputs.length; i++){
 		inputs[i].style.color = "black";
-		inputs[i].style.boxShadow = "0px 0px 0px 0px";
+		inputs[i].style.boxShadow = "none";
 		inputs[i].style.borderColor = "black";
 	}
 	inputs["0"].style.backgroundColor = "#FF9AA2";

@@ -1,0 +1,84 @@
+/*
+Colour Palettes:
+
+Coffee Theme: https://coolors.co/f3ebe2-ddb892-9c6644-462e20
+Dark Theme: https://coolors.co/1f2933-52606d-616e7c-e4e7eb
+Party Theme: https://coolors.co/ff9aa2-ffb7b2-ffdac1-e2f0cb-b5ead7-e0d7ff-c7ceea
+
+*/
+
+html{
+	height: 100%;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #F3EBE2;
+}
+main{
+	width: 1000px;
+	height: 900px;
+	display: grid;
+	grid-template-rows:1fr 6fr;
+}
+
+section{
+	text-align:center;
+	border: 5px solid #9C6644;
+	border-radius: 10px;
+	width: auto auto;
+	margin: 0px 10px 5px 10px;
+	background-color: #DDB892;
+	color: #462E20;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	padding: 20px 30px 20px 30px;
+}
+section > img{
+	height:500px;
+	border-radius: 5px;
+}
+#menu{
+	margin: 0px -10px -10px -10px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+#menu > input{
+	padding: 20px 30px 20px 30px;
+	border: 5px solid #9C6644;
+	border-radius: 8px;
+	background-color: #DDB892;
+	color: #462E20;
+	font-size: 25px;
+	font-family: 'Impact';
+}
+
+ #menu > input:hover{
+	background-color:#D3A373;
+}
+
+#theme{
+	display: grid;
+	margin: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+#theme > input{
+	padding: 10px;
+	border: 5px solid #9C6644;
+	border-radius: 8px;
+	background-color: #DDB892;
+	color: #462E20;
+	font-size: 18px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#theme > input:hover{
+	background-color:#D3A373;
+}
